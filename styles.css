@@ -8,13 +8,13 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #E69A8D;
+    background: #5F4B8B;
 }
 body .input {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .container {
-    background: #5F4B8B;
+    background:#E69A8D;
     padding: 1rem;
     border-radius: .5rem;
     width: 700px;
@@ -24,7 +24,7 @@ body .input {
     position: absolute;
     top: 3rem;
     font-size: 5rem;
-    color: #5F4B8B;
+    color: #E69A8D;
     font-weight: bold;
 }
 .quote {
@@ -34,7 +34,7 @@ body .input {
 }
 .input {
     background: transparent;
-    border: 2px solid #502e99;
+    border: 2px solid #E69A8D;
     outline: none;
     width: 100%;
     height: 8rem;
@@ -46,4 +46,11 @@ body .input {
 }
 .input:focus {
     border-color: black;
+}
+.correct {
+    color: green;
+}
+.incorrect {
+    color: red;
+    text-decoration: underline;
 }
