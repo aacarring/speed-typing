@@ -1,0 +1,1 @@
+A code-along with Web Dev Simplified's speed typing game tutorial.
